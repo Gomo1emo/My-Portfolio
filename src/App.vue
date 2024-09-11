@@ -1,19 +1,20 @@
 <template>
  
-  
-  <HomePage/>
+ <div id="app">
+    <nav>
+      <router-link to="/"><h2>Home</h2></router-link> |
+      <router-link to="/about"><h2>About us</h2></router-link> |
+      <router-link to="/contact"><h2>Contact us</h2></router-link>
+    </nav>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
 
-import HomePage from './components/HomePage.vue';
 
 export default {
-  name: 'App',
-  components: {
-   
-    HomePage,
-  }
+  name: 'App'
 }
 </script>
 
@@ -25,5 +26,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+nav {
+  display: flex;
 }
 </style>
