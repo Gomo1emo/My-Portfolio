@@ -1,5 +1,6 @@
-<template>
+<template id="he" >
   <div class="hello">
+    <h1><a href="/about#ab">About us</a></h1>
     <h1>{{ msg }}</h1>
     <p>
     My name is Khotso or Kgotso
