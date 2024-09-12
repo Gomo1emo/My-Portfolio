@@ -5,6 +5,8 @@ import HomePage from '../HomePage.vue';
 import ContactPage from '../ContactPage.vue';
 import AboutPage from '../AboutPage.vue';
 import HelloWorld from '../HelloWorld.vue';
+import ProjectsPage from '../ProjectsPage.vue';
+
 
 const routes = [
   {
@@ -13,7 +15,7 @@ const routes = [
     component: HomePage,
   },
   {
-    path: '/',
+    path: '/hello',
     name: 'HelloWorld',
     component: HelloWorld,
   },
@@ -21,6 +23,11 @@ const routes = [
     path: '/about',
     name: 'AboutPage',
     component: AboutPage,
+  },
+  {
+    path: '/projects',
+    name: 'Projects',
+    component: ProjectsPage,
   },
   {
     path: '/contact',
