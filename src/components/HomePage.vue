@@ -32,19 +32,31 @@
         <h2>Skills</h2>
         <div class="row mt-4">
           <div class="col-md-4">
-            <i class="fas fa-code fa-3x text-primary"></i>
-            <h4 class="mt-2">Front-End Development</h4>
-            <p>Proficient in HTML, CSS, JavaScript, Vue.js, Angular, and responsive design.</p>
-          </div>
+    <i class="fas fa-code fa-3x text-primary"></i>
+    <h4 class="mt-2">Front-End Development</h4>
+    <p>Proficient in HTML, CSS, JavaScript, Vue.js, Angular, and responsive design.</p>
+    <ul class="ico">
+        <li><i class="fab fa-html5 fa-2x text-danger"></i></li>
+        <li><i class="fab fa-css3-alt fa-2x text-primary"></i></li>
+        <li><i class="fab fa-js-square fa-2x text-warning"></i></li>
+        <li><i class="fab fa-vuejs fa-2x text-success"></i></li>
+        <li><i class="fab fa-angular fa-2x text-danger"></i></li>
+    </ul>
+</div>
+
           <div class="col-md-4">
             <i class="fas fa-server fa-3x text-primary"></i>
             <h4 class="mt-2">Back-End Development</h4>
-            <p>Experienced in building REST APIs with Java, Spring Boot, Node.js, and databases like MySQL and MongoDB.</p>
+            <p>Experienced in building REST APIs with Java, Spring Boot.</p>
+            <ul class="ico">
+        <li><i class="fab fa-java fa-2x text-warning"></i></li>
+        <li><i class="fas fa-cogs fa-2x text-success"></i></li>
+    </ul>
           </div>
           <div class="col-md-4">
             <i class="fas fa-cloud fa-3x text-primary"></i>
-            <h4 class="mt-2">Cloud & DevOps</h4>
-            <p>Knowledge in deploying applications to AWS, Cloudinary, Docker, and working with CI/CD pipelines.</p>
+            <h4 class="mt-2">Database Management</h4>
+            <p>A database management professional skilled in PostgreSQL, DBeaver, Postman, and SQL manages and optimizes databases, writes and executes queries, and tests API interactions.</p>
           </div>
         </div>
       </div>
@@ -57,7 +69,7 @@
         <div class="row mt-4">
           <div class="col-md-6">
             <div class="card">
-              <img src="https://res-console.cloudinary.com/dmdnmg8zs/thumbnails/v1/image/upload/v1726212049/U2NyZWVuc2hvdF8yMDI0LTA5LTEzX2F0XzA5LjE5LjU3X3Ztb2hteQ==/template_primary/Y19jcm9wLHdfMjIwMCxoXzE4MDA=" class="card-img-top pr" alt="Project 1">
+              <img src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726212049/Screenshot_2024-09-13_at_09.19.57_vmohmy.png" class="card-img-top pr" alt="Project 1">
               <div class="card-body">
                 <h5 class="card-title">Process Pulse</h5>
                 <p class="card-text">A full-stack web application similar to a bug bounty platform but mostly focuses on the optimization of business processes. <br> Built with Angular and Spring Boot.</p>
@@ -93,7 +105,7 @@
       </div>
       <div class="mb-3">
         <label for="message" class="form-label">Message:</label>
-        <textarea class="form-control" id="message" rows="4" v-model="form.message" required></textarea>
+        <textarea class="form-control" id="message" rows="4" v-model="form.message" placeholder="Message..." required></textarea>
       </div>
       <button type="submit" class="btn btn-primary">Send:</button>
     </form>
@@ -280,7 +292,23 @@ footer {
   };
 }
 .card img {
-  height: 30rem;
+  height: 25rem;
   margin: 0 auto;
 }
+.card {
+  height: 33rem;
+}
+.ico {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .ico li {
+        flex: 1 0 33%; /* Three items per row */
+        text-align: center;
+        padding: 10px;
+        font-size: 2.5rem;
+    }
 </style>
