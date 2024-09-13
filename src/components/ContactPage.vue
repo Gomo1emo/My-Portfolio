@@ -7,36 +7,10 @@
         width="100%"
         class="bg-grey text-center"
       >
-        <v-card-text>
-          <v-btn
-            class="mx-4"
-            icon="fas fa-comment"
-            variant="plain"
-            color="white"
-          ></v-btn>
-          <v-btn
-            class="mx-4"
-            icon="fas fa-university"
-            variant="plain"
-            color="white"
-          ></v-btn>
-          <v-btn
-            class="mx-4"
-            icon="fas fa-wifi"
-            variant="plain"
-            color="white"
-          ></v-btn>
-          <v-btn
-            class="mx-4"
-            icon="fas fa-podcast"
-            variant="plain"
-            color="white"
-          ></v-btn>
-        </v-card-text>
 
         <v-card-text class="text-white">
           @ {{ new Date().getFullYear() }} —
-          <strong>AAE IdeaPro All Rights Reserved</strong>
+          <strong>Khotso.G Tshabalala All Rights Reserved</strong>
         </v-card-text>
       </v-card>
     
