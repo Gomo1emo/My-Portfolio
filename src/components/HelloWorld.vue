@@ -51,11 +51,9 @@ export default {
 .navbar {
   background-color: transparent !important;
   position: absolute;
-  justify-content: space-between;
+  
 }
-.ms-auto {
-  margin-left: ;
-}
+
 
 
 </style>
