@@ -2,10 +2,10 @@
 
 import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '../HomePage.vue';
-import ContactPage from '../ContactPage.vue';
-import AboutPage from '../AboutPage.vue';
+
+
 import HelloWorld from '../HelloWorld.vue';
-import ProjectsPage from '../ProjectsPage.vue';
+
 
 
 const routes = [
@@ -19,21 +19,6 @@ const routes = [
     name: 'HelloWorld',
     component: HelloWorld,
   },
-  {
-    path: '/about',
-    name: 'AboutPage',
-    component: AboutPage,
-  },
-  {
-    path: '/projects',
-    name: 'Projects',
-    component: ProjectsPage,
-  },
-  {
-    path: '/contact',
-    name: 'ContactPage',
-    component: ContactPage,
-  }
 ];
 
 const router = createRouter({

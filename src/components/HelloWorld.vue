@@ -1,6 +1,6 @@
 <template>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark ">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">Khotso.G Tshabalala</a>
       <button
@@ -20,18 +20,21 @@
         id="navbarNav"
       >
         <ul class="navbar-nav ms-auto links">
-          <li class="nav-item">
-            <a class="nav-link active" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/about">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/projects">Projects</a>
-          </li>
           <!-- <li class="nav-item">
-            <a class="nav-link active" href="/contact">Contact me</a>
+            <a class="nav-link active" href="/">Home</a>
           </li> -->
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact me</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -49,11 +52,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 .navbar {
-  background-color: transparent !important;
+  /* background-color: orange !important; */
   position: absolute;
+  width: 100%;
+  padding: 0 2%;
   
 }
-
-
 
 </style>
