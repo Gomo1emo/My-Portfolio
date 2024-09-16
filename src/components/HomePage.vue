@@ -3,42 +3,28 @@
     <div>
       <!-- Header Section -->
       <header class=" py-5 ">
-      
+
         <div class="container1 col-6">
-          <h3>Hello there,</h3>
+          <h3>Hi there,</h3>
           <h1>I'm Khotso.G Tshabalala...</h1>
           <h3>Full-Stack Software</h3>
           <h3>Developer</h3>
-          <a href="#contact" class="btn btn-light btn-lg mt-3">Contact Me</a> 
+          <a href="#contact" class="btn btn-light btn-lg mt-3">Contact Me</a>
           <br>
           <br>
           <br>
           <br>
           <div class="social-links">
-                  <a
-                    href="https://www.linkedin.com/in/gomolemo-tshabalala-b6326712b"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn me-2 text-white"
-                    aria-label="LinkedIn"
-                    style="font-size: medium;"
-                  >
-                    <img
-                      style="max-width: 3rem; height: 3rem; align-self: center"
-                      src="../assets/linkedin.1024x1024.png"
-                      alt="LinkedIn"
-                    /> <p>LinkedIn</p>
-                  </a>
-                  <a
-                    href="https://github.com/Gomo1emo"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn me-2 text-white"
-                    aria-label="GitHub"
-                    style="font-size: medium;"
-                  >
-                    <img
-                      style="
+            <a href="https://www.linkedin.com/in/gomolemo-tshabalala-b6326712b" target="_blank"
+              rel="noopener noreferrer" class="btn me-2 text-white" aria-label="LinkedIn" style="font-size: medium;">
+              <img style="max-width: 3rem; height: 3rem; align-self: center"
+                src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455819/linkedin.1024x1024_mg5qll.png"
+                alt="LinkedIn" />
+              <p>LinkedIn</p>
+            </a>
+            <a href="https://github.com/Gomo1emo" target="_blank" rel="noopener noreferrer" class="btn me-2 text-white"
+              aria-label="GitHub" style="font-size: medium;">
+              <img style="
                         max-width: 3rem;
                         height: 3rem;
                         align-self: center;
@@ -46,22 +32,22 @@
                         border: 2px solid white;
                         border-radius: 5px;
                       "
-                      src="../assets/github-original-wordmark.1024x1017.png"
-                      alt=""
-                    />
-                    <p>GitHub</p>
-                  </a>
-                </div>
+                src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455819/github-original-wordmark.1024x1017_h8artv.png"
+                alt="" />
+              <p>GitHub</p>
+            </a>
+          </div>
         </div>
         <!-- <div class="dev col-6">
           <img src="../assets/1709674937953.gif" alt="">
         </div> -->
-        
-        
+
+
         <!-- <div class="pic">
         <img class="hero" src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726197596/about-brightcode-software-services_rv31wy.webp" alt="">
       </div> -->
-      </header> <hr>
+      </header>
+      <hr>
 
       <!-- About Me Section -->
       <section id="about" class="py-5 bg-custom text-white">
@@ -74,7 +60,8 @@
             real-world problems.
           </p>
         </div>
-      </section> <hr>
+      </section>
+      <hr>
 
       <!-- Skills Section -->
       <section id="skills" class="py-5 bg-custom ">
@@ -103,22 +90,17 @@
               <p>Experienced in building REST APIs with Java, Spring Boot.</p>
               <ul class="ico">
                 <li>
-                  <img
-                    style="max-width: 5rem; height: 5rem; align-self: center"
-                    src="../assets/java.756x1024.png"
-                    alt=""
-                  />
+                  <img style="max-width: 5rem; height: 5rem; align-self: center"
+                    src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726456222/java.756x1024_aqpjbh.png"
+                    alt="" />
                 </li>
                 <li>
-                  <img
-                    style="
+                  <img style="
                       max-width: 4.5rem;
                       height: 4.5rem;
                       align-self: center;
-                    "
-                    src="../assets/spring.1024x1023.png"
-                    alt=""
-                  />
+                    " src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455820/spring.1024x1023_pzczca.png"
+                    alt="" />
                 </li>
               </ul>
             </div>
@@ -133,25 +115,22 @@
               <ul class="ico">
                 <li>
                   <img
-                    src="../assets/postgresql-plain-wordmark.1024x1021.png"
-                    alt="PostgreSQL"
-                    style="width: 5rem; height: 5rem"
-                  />
+                    src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455820/postgresql-plain-wordmark.1024x1021_nqq6h0.png"
+                    alt="PostgreSQL" style="width: 5rem; height: 5rem" />
                 </li>
                 <li>
-                  <img
-                    src="../assets/dbeaver.1024x1014.png"
-                    alt="DBeaver"
-                    style="max-width: 5rem; height: 5rem; align-self: center"
-                  />
+                  <img src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726456222/dbeaver.1024x1014_octijv.png"
+                    alt="DBeaver" style="max-width: 5rem; height: 5rem; align-self: center" />
                 </li>
                 <li><i class="fas fa-database fa-2x text-primary"></i></li>
-                <li><img style="max-width: 14rem; height: 7rem; align-self: center" src="../assets/postman.webp" alt=""></li>
+                <li><img style="max-width: 14rem; height: 7rem; align-self: center"
+                    src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455819/postman_eibrlt.webp" alt=""></li>
               </ul>
             </div>
           </div>
         </div>
-      </section> <hr>
+      </section>
+      <hr>
 
       <!-- Projects Section -->
       <section id="projects" class="py-5 bg-custom ">
@@ -162,9 +141,7 @@
               <div class="card">
                 <img
                   src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726212049/Screenshot_2024-09-13_at_09.19.57_vmohmy.png"
-                  class="card-img-top pr"
-                  alt="Project 1"
-                />
+                  class="card-img-top pr" alt="Project 1" />
                 <div class="card-body text-white bg-dark">
                   <h5 class="card-title">Process Pulse</h5>
                   <p class="card-text">
@@ -178,11 +155,7 @@
             </div>
             <div class="col-md-6">
               <div class="card">
-                <img
-                  src="https://via.placeholder.com/200"
-                  class="card-img-top pr"
-                  alt="Project 2"
-                />
+                <img src="https://via.placeholder.com/200" class="card-img-top pr" alt="Project 2" />
                 <div class="card-body text-white bg-dark">
                   <h5 class="card-title">Project 2</h5>
                   <p class="card-text">
@@ -194,7 +167,8 @@
             </div>
           </div>
         </div>
-      </section> <hr>
+      </section>
+      <hr>
 
       <!-- Contact Section -->
       <section id="contact" class="py-5 bg-custom text-white">
@@ -203,36 +177,17 @@
           <form @submit.prevent="handleSubmit">
             <div class="mb-3">
               <label for="name" class="form-label">Name:</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                placeholder="John Doe"
-                v-model="form.name"
-                required
-              />
+              <input type="text" class="form-control" id="name" placeholder="John Doe" v-model="form.name" required />
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email address:</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="john.doe@example.com"
-                v-model="form.email"
-                required
-              />
+              <input type="email" class="form-control" id="email" placeholder="john.doe@example.com"
+                v-model="form.email" required />
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Message:</label>
-              <textarea
-                class="form-control"
-                id="message"
-                rows="4"
-                v-model="form.message"
-                placeholder="Message..."
-                required
-              ></textarea>
+              <textarea class="form-control" id="message" rows="4" v-model="form.message" placeholder="Message..."
+                required></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Send:</button>
           </form>
@@ -258,28 +213,15 @@
               <div class="col-12">
                 <p class="mb-0">Let's connect:</p>
                 <div class="social-links">
-                  <a
-                    href="https://www.linkedin.com/in/gomolemo-tshabalala-b6326712b"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn me-2"
-                    aria-label="LinkedIn"
-                  >
-                    <img
-                      style="max-width: 3rem; height: 3rem; align-self: center"
-                      src="../assets/linkedin.1024x1024.png"
-                      alt="LinkedIn"
-                    />
+                  <a href="https://www.linkedin.com/in/gomolemo-tshabalala-b6326712b" target="_blank"
+                    rel="noopener noreferrer" class="btn me-2" aria-label="LinkedIn">
+                    <img style="max-width: 3rem; height: 3rem; align-self: center"
+                      src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455819/linkedin.1024x1024_mg5qll.png"
+                      alt="LinkedIn" />
                   </a>
-                  <a
-                    href="https://github.com/Gomo1emo"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn me-2"
-                    aria-label="GitHub"
-                  >
-                    <img
-                      style="
+                  <a href="https://github.com/Gomo1emo" target="_blank" rel="noopener noreferrer" class="btn me-2"
+                    aria-label="GitHub">
+                    <img style="
                         max-width: 3rem;
                         height: 3rem;
                         align-self: center;
@@ -287,9 +229,8 @@
                         border: 2px solid white;
                         border-radius: 5px;
                       "
-                      src="../assets/github-original-wordmark.1024x1017.png"
-                      alt=""
-                    />
+                      src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455819/github-original-wordmark.1024x1017_h8artv.png"
+                      alt="" />
                   </a>
                 </div>
               </div>
@@ -355,13 +296,13 @@ export default {
 
 header {
   /* background-image: url("../assets/stream-binary-code-design_53876-118375.jpg");*/
-  background-image: url("https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726151212/software-development-costs-1128x635_bpjqp9.jpg"); 
+  background-image: url("https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726151212/software-development-costs-1128x635_bpjqp9.jpg");
   background-size: contain;
   background-position: center;
   /* background-color: rgb(50, 6, 50) ; */
   height: 100vh;
   width: 100vw;
-  
+
   /* background-color: black; */
 }
 
@@ -374,7 +315,7 @@ footer {
 .container1 {
   /* margin-right: 45%;
   margin-left: 2%; */
-  
+
   padding-right: 1%;
   margin-top: 10%;
   text-align: center;
@@ -393,17 +334,20 @@ footer {
   h1 {
     font-size: 2.7rem;
     border-right: 2px solid hsl(0, 99%, 60%);
-    animation: typewriter 7s steps(50) infinite alternate-reverse , blinkTextCursor 500ms infinite;
+    animation: typewriter 7s steps(50) infinite alternate-reverse, blinkTextCursor 500ms infinite;
     white-space: nowrap;
     overflow: hidden;
     margin-left: 2%;
     color: orange;
   }
-  
+
 }
+
 @keyframes typewriter {
-    from { width: 0;
+  from {
+    width: 0;
   }
+
   to {
     width: 655px;
   }
@@ -412,8 +356,9 @@ footer {
 @keyframes blinkTextCursor {
   from {
     border-right-color: hsl(0, 99%, 60%);
-    
+
   }
+
   to {
     border-right-color: transparent;
   }
@@ -483,33 +428,37 @@ footer {
 
 
   img {
-  max-width: 25rem;
-  max-height: 30rem;
-  border-radius: 10%;
-  
-  }
-  
-}
- .bg-custom {
-  background-color: rgb(50, 6, 50) ;
-  border-bottom: 2px solid black;
- }
+    max-width: 25rem;
+    max-height: 30rem;
+    border-radius: 10%;
 
- hr {
+  }
+
+}
+
+.bg-custom {
+  background-color: rgb(50, 6, 50);
+  border-bottom: 2px solid black;
+}
+
+hr {
 
   margin: 0;
   width: 100%;
-  
- }
- .social-linksa {
+
+}
+
+.social-linksa {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
 
- }
- btn-custom {
-  background-color: rgb(50, 6, 50) ;
- }
+}
+
+btn-custom {
+  background-color: rgb(50, 6, 50);
+}
 </style>
+
