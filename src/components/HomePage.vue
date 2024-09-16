@@ -6,10 +6,49 @@
 
         <div class="container1 col-6">
           <h3>Hi there,</h3>
-          <h1>I'm Khotso.G Tshabalala...</h1>
+          <div class="h1">
+            <h1 class="hhh">
+            
+            <span class="letter">I</span>
+            <span class="letter">'</span>
+            <span class="letter">m</span>
+            </h1>
+            <h1 class="hhh">
+            <span class="letter letter-1">K</span> 
+            <span class="letter letter-2">h</span> 
+            <span class="letter letter-3">o</span> 
+            <span class="letter letter-4">t</span> 
+            <span class="letter letter-5">s</span> 
+            <span class="letter letter-6">o</span> 
+            <span class="letter letter-7">.</span>
+            <span class="letter letter-8">G</span>
+            </h1>
+            <h1 class="hhh">
+            <span class="letter letter-9">T</span>
+            <span class="letter letter-10">s</span>
+            <span class="letter letter-11">h</span>
+            <span class="letter letter-12">a</span>
+            <span class="letter letter-13">b</span>
+            <span class="letter letter-14">a</span>
+            <span class="letter letter-15">l</span>
+            <span class="letter letter-16">a</span>
+            <span class="letter letter-17">l</span>
+            <span class="letter letter-18">a</span>
+            <span class="letter letter-19">.</span>
+            <span class="letter letter-20">.</span>
+            <span class="letter letter-21">.</span>
+          </h1>
+          </div>
           <h3>Full-Stack Software</h3>
           <h3>Developer</h3>
-          <a href="#contact" class="btn btn-light btn-lg mt-3">Contact Me</a>
+          <a href="#contact" class="btn btn-light btn-lg btn-custom mt-3">Contact Me</a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
           <br>
           <br>
           <br>
@@ -17,7 +56,7 @@
           <div class="social-links">
             <a href="https://www.linkedin.com/in/gomolemo-tshabalala-b6326712b" target="_blank"
               rel="noopener noreferrer" class="btn me-2 text-white" aria-label="LinkedIn" style="font-size: medium;">
-              <img style="max-width: 3rem; height: 3rem; align-self: center"
+              <img style="max-width: 5rem; height: 5rem; align-self: center"
                 src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455819/linkedin.1024x1024_mg5qll.png"
                 alt="LinkedIn" />
               <p>LinkedIn</p>
@@ -25,8 +64,8 @@
             <a href="https://github.com/Gomo1emo" target="_blank" rel="noopener noreferrer" class="btn me-2 text-white"
               aria-label="GitHub" style="font-size: medium;">
               <img style="
-                        max-width: 3rem;
-                        height: 3rem;
+                        max-width: 5rem;
+                        height: 5rem;
                         align-self: center;
                         background-color: ghostwhite;
                         border: 2px solid white;
@@ -296,7 +335,7 @@ export default {
 
 header {
   /* background-image: url("../assets/stream-binary-code-design_53876-118375.jpg");*/
-  background-image: url("https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726151212/software-development-costs-1128x635_bpjqp9.jpg");
+  background-image: url("https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726461374/dark-purple-background-27zkha4jrgkrw17z_qnzd80.webp");
   background-size: contain;
   background-position: center;
   /* background-color: rgb(50, 6, 50) ; */
@@ -316,34 +355,107 @@ footer {
   /* margin-right: 45%;
   margin-left: 2%; */
 
-  padding-right: 1%;
-  margin-top: 10%;
+  padding-left: 1%;
+  margin-top: 15%;
   text-align: center;
   font-family: 'Anonymous Pro', monospace;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
 
   h3 {
     font-size: 2rem;
     color: ghostwhite;
   }
-
+  .hhh {
+    font-family: 'Liberty';
+        font-weight: 100;
+        font-size: 3rem;
+        letter-spacing: .2em;
+        flex-flow: row;
+    }
+    .letter{
+            color: #fffad9;
+            text-shadow: 0 0 2rem #00f0ff;
+            display: flex;
+            flex-direction: column;
+        }
+        
+    .letter-8 {
+                transform: translate(5.2rem, 3rem) rotate(100deg);
+                animation: flicker 2s ease-in-out infinite alternate;
+            } 
+            .h1 {
+              display: flex;
+              gap: 1.5rem;
+            }
+  h1 html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
   h1 {
-    font-size: 2.7rem;
-    border-right: 2px solid hsl(0, 99%, 60%);
-    animation: typewriter 7s steps(50) infinite alternate-reverse, blinkTextCursor 500ms infinite;
-    white-space: nowrap;
+    @font-face {
+      font-family: "Liberty";
+      src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/907368/liberty.otf');
+    };
+
+    width: 100%;
+    background-color: transparent;
+    font-size: 10px;
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+         
+    /* font-size: 2.7rem; */
+    /* border-right: 2px solid hsl(0, 99%, 60%); */
+    /* animation: typewriter 7s steps(50) infinite alternate-reverse, blinkTextCursor 500ms infinite; */
+    /* white-space: nowrap;
     overflow: hidden;
     margin-left: 2%;
-    color: orange;
+    color: orange; */
+    
   }
 
 }
-
-@keyframes typewriter {
+@keyframes flicker {
+    0%{
+        opacity: 1;
+        transform: translate(-0.2rem, 1rem) rotate(10deg)
+    }5%{
+        opacity: 1;
+        transform: translate(-0.2rem, 1rem) rotate(10deg)
+    }5.5%{
+        opacity: 0;
+        transform: translate(-0.2rem, 1rem) rotate(10deg)
+    }6%{
+        opacity: 1;
+        transform: translate(-0.2rem, 1rem) rotate(10deg)
+    }6.5%{
+        opacity: 1;
+        transform: translate(-0.2rem, 1rem) rotate(10deg)
+    }7%{
+        opacity: 0;
+        transform: translate(-0.2rem, 1rem) rotate(10deg)
+  }8%{
+        opacity: 1;
+        transform: translate(-0.2rem, 1rem) rotate(10deg)
+}50%{
+        opacity: 1;
+        transform: translate(-0.2rem, 1rem) rotate(13deg)
+}100%{
+        opacity: 1;
+        transform: translate(-0.2rem, 1rem) rotate(10deg)
+}
+}
+/* @keyframes typewriter {
   from {
     width: 0;
   }
@@ -362,7 +474,7 @@ footer {
   to {
     border-right-color: transparent;
   }
-}
+} */
 
 .me-2 {
   font-size: 30px;
@@ -457,8 +569,5 @@ hr {
 
 }
 
-btn-custom {
-  background-color: rgb(50, 6, 50);
-}
 </style>
 

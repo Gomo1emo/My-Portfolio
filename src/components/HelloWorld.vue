@@ -43,7 +43,17 @@
 
 <script>
 export default {
-  name: 'HelloWorld'
+  name: 'HelloWorld',
+  data() {
+    return {
+      isNavbarOpen: false
+    };
+  },
+  methods: {
+    toggleNavbar() {
+      this.isNavbarOpen = !this.isNavbarOpen;
+    }
+  }
  
   }
 
@@ -56,6 +66,7 @@ export default {
   position: absolute;
   width: 100%;
   padding: 0 2%;
+  font-size: larger;
   
 }
 
