@@ -7,40 +7,43 @@
         <div class="container1 col-6">
           <h3>Hi there,</h3>
           <div class="h1">
+            <br>
             <h1 class="hhh">
-            
-            <span class="letter">I</span>
-            <span class="letter">'</span>
-            <span class="letter">m</span>
+
+              <span class="letter">I</span>
+              <span class="letter">'</span>
+              <span class="letter">m</span>
             </h1>
             <h1 class="hhh">
-            <span class="letter letter-1">K</span> 
-            <span class="letter letter-2">h</span> 
-            <span class="letter letter-3">o</span> 
-            <span class="letter letter-4">t</span> 
-            <span class="letter letter-5">s</span> 
-            <span class="letter letter-6">o</span> 
-            <span class="letter letter-7">.</span>
-            <span class="letter letter-8">G</span>
+              <span class="letter letter-1">K</span>
+              <span class="letter letter-2">h</span>
+              <span class="letter letter-3">o</span>
+              <span class="letter letter-4">t</span>
+              <span class="letter letter-5">s</span>
+              <span class="letter letter-6">o</span>
+              <span class="letter letter-7">.</span>
+              <span class="letter letter-8">G</span>
             </h1>
             <h1 class="hhh">
-            <span class="letter letter-9">T</span>
-            <span class="letter letter-10">s</span>
-            <span class="letter letter-11">h</span>
-            <span class="letter letter-12">a</span>
-            <span class="letter letter-13">b</span>
-            <span class="letter letter-14">a</span>
-            <span class="letter letter-15">l</span>
-            <span class="letter letter-16">a</span>
-            <span class="letter letter-17">l</span>
-            <span class="letter letter-18">a</span>
-            <span class="letter letter-19">.</span>
-            <span class="letter letter-20">.</span>
-            <span class="letter letter-21">.</span>
-          </h1>
+              <span class="letter letter-9">T</span>
+              <span class="letter letter-10">s</span>
+              <span class="letter letter-11">h</span>
+              <span class="letter letter-12">a</span>
+              <span class="letter letter-13">b</span>
+              <span class="letter letter-14">a</span>
+              <span class="letter letter-15">l</span>
+              <span class="letter letter-16">a</span>
+              <span class="letter letter-17">l</span>
+              <span class="letter letter-18">a</span>
+              <span class="letter letter-19">.</span>
+              <span class="letter letter-20">.</span>
+              <span class="letter letter-21">.</span>
+            </h1>
           </div>
+          <br>
           <h3>Full-Stack Software</h3>
           <h3>Developer</h3>
+          <br>
           <a href="#contact" class="btn btn-light btn-lg btn-custom mt-3">Contact Me</a>
           <br>
           <br>
@@ -52,20 +55,20 @@
           <br>
           <br>
           <br>
-          <br>
+
           <div class="social-links">
             <a href="https://www.linkedin.com/in/gomolemo-tshabalala-b6326712b" target="_blank"
               rel="noopener noreferrer" class="btn me-2 text-white" aria-label="LinkedIn" style="font-size: medium;">
-              <img style="max-width: 5rem; height: 5rem; align-self: center"
+              <img style="max-width: 3.5rem; height: 3.5rem; align-self: center"
                 src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455819/linkedin.1024x1024_mg5qll.png"
                 alt="LinkedIn" />
-              <p>LinkedIn</p>
+              <!-- <p>LinkedIn</p> -->
             </a>
             <a href="https://github.com/Gomo1emo" target="_blank" rel="noopener noreferrer" class="btn me-2 text-white"
               aria-label="GitHub" style="font-size: medium;">
               <img style="
-                        max-width: 5rem;
-                        height: 5rem;
+                        max-width: 3.5rem;
+                        height: 3.5rem;
                         align-self: center;
                         background-color: ghostwhite;
                         border: 2px solid white;
@@ -73,7 +76,7 @@
                       "
                 src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455819/github-original-wordmark.1024x1017_h8artv.png"
                 alt="" />
-              <p>GitHub</p>
+              <!-- <p>GitHub</p> -->
             </a>
           </div>
         </div>
@@ -92,11 +95,30 @@
       <section id="about" class="py-5 bg-custom text-white">
         <div class="container text-center">
           <h2>About Me</h2>
-          <p class="lead mt-3">
-            I am a passionate full-stack software developer with a strong
-            foundation in modern web development technologies. I love building
-            dynamic, scalable, and user-friendly web applications that solve
-            real-world problems.
+          <div class="hero">
+
+            <div class="heroo lead mt-3 col-6">
+              <p>I am a skilled Full-stack Software Developer with a unique background as an electrician.
+                With years of hands-on experience in electrical systems, I have developed a keen eye for detail,
+                problem-solving, and system optimization.
+                Transitioning into the world of software development, I have applied these technical skills to the
+                digital realm, excelling in both frontend and backend development.
+                My journey from electrician to developer has allowed me to approach projects with a practical mindset,
+                ensuring robust and efficient solutions for every task.
+              </p>
+
+            </div>
+            <img class="me col-6"
+              src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726796627/ME_bg_removed_g6lch9.png" alt="">
+          </div>
+
+          <p>Specializing in technologies like Angular, Vue, Spring Boot, PostgreSQL and cloud services such as
+            Cloudinary, I have built comprehensive applications that solve real-world problems.
+            Their understanding of system architecture, coupled with an electrician’s precision, has been
+            instrumental in delivering high-quality software solutions.
+            Whether working on complex backend logic or crafting intuitive user interfaces, I bring a deep-rooted
+            commitment to excellence, making me a versatile and reliable developer in today’s fast-paced tech
+            environment.
           </p>
         </div>
       </section>
@@ -111,8 +133,8 @@
               <i class="fas fa-code fa-3x text-primary"></i>
               <h4 class="mt-2">Front-End Development</h4>
               <p>
-                Proficient in HTML, CSS, JavaScript, Vue.js, Angular, and
-                responsive design.
+                Proficient in HTML, CSS, JavaScript, using frameworks like Vue.js, Angular, and implementing
+                responsive design principles using tools like Figma, Bootstrap & Tailwind.
               </p>
               <ul class="ico">
                 <li><i class="fab fa-html5 fa-2x text-danger"></i></li>
@@ -120,13 +142,18 @@
                 <li><i class="fab fa-js-square fa-2x text-warning"></i></li>
                 <li><i class="fab fa-vuejs fa-2x text-success"></i></li>
                 <li><i class="fab fa-angular fa-2x text-danger"></i></li>
+                <li><img style="max-width: 6rem; height: 5rem; align-self: center" src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726803063/7564187_figma_logo_brand_icon_ww9klp.png" alt=""></li>
+                <li><img style="max-width: 5rem; height: 4rem; align-self: center" src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726802742/Bootstrap_logo.svg_fwd0fk.png" alt=""></li>
+                <li><img style="max-width: 13rem; height: 5rem; align-self: center; background-color: ghostwhite;" src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726802796/https___dev-to-uploads.s3.amazonaws.com_uploads_articles_tlqh86jgl25x41gf9eed_1_dpfkby.avif" alt=""></li>
+                
+                
               </ul>
             </div>
 
             <div class="col-md-4">
               <i class="fas fa-server fa-3x text-primary"></i>
               <h4 class="mt-2">Back-End Development</h4>
-              <p>Experienced in building REST APIs with Java, Spring Boot.</p>
+              <p>Experienced in building and testing REST APIs using technologies like Java, Spring Boot and Postman.</p>
               <ul class="ico">
                 <li>
                   <img style="max-width: 5rem; height: 5rem; align-self: center"
@@ -141,6 +168,8 @@
                     " src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455820/spring.1024x1023_pzczca.png"
                     alt="" />
                 </li>
+                <li><img style="max-width: 15rem; height: 6.5rem; align-self: center"
+                  src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455819/postman_eibrlt.webp" alt=""></li>
               </ul>
             </div>
             <div class="col-md-4">
@@ -149,7 +178,7 @@
               <p>
                 A database management professional skilled in PostgreSQL,
                 DBeaver, Postman, and SQL manages and optimizes databases,
-                writes and executes queries, and tests API interactions.
+                writes and executes queries
               </p>
               <ul class="ico">
                 <li>
@@ -162,8 +191,7 @@
                     alt="DBeaver" style="max-width: 5rem; height: 5rem; align-self: center" />
                 </li>
                 <li><i class="fas fa-database fa-2x text-primary"></i></li>
-                <li><img style="max-width: 14rem; height: 7rem; align-self: center"
-                    src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726455819/postman_eibrlt.webp" alt=""></li>
+                
               </ul>
             </div>
           </div>
@@ -194,12 +222,15 @@
             </div>
             <div class="col-md-6">
               <div class="card">
-                <img src="https://via.placeholder.com/200" class="card-img-top pr" alt="Project 2" />
+                <img
+                  src="https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726797511/Screenshot_2024-09-20_at_03.57.45_k7nc7e.png"
+                  class="card-img-top pr" alt="Project 2" />
                 <div class="card-body text-white bg-dark">
-                  <h5 class="card-title">Project 2</h5>
+                  <h5 class="card-title">KG Auto</h5>
                   <p class="card-text">
-                    E-commerce platform with payment integration. <br />
-                    Built using Angular and Springboot.
+                    KG Auto is an online car-sales platform specializing in muscle cars where mortoring enthusiests can
+                    buy or sell theirs pre-loved high perfomance cars.
+                    You can also arrang for a test drive before going ahead to buy any product from this platform.
                   </p>
                 </div>
               </div>
@@ -212,6 +243,14 @@
       <!-- Contact Section -->
       <section id="contact" class="py-5 bg-custom text-white">
         <h2 class="my-4">Contact Me</h2>
+        <p>Call me <i class="fas fa-mobile-alt"></i> :</p> +27 74-905-8353 
+        <br>
+        <br>
+        
+        <p>or</p>
+        <br>
+        <p>Send me an email:</p>
+
         <div class="contain">
           <form @submit.prevent="handleSubmit">
             <div class="mb-3">
@@ -335,8 +374,9 @@ export default {
 
 header {
   /* background-image: url("../assets/stream-binary-code-design_53876-118375.jpg");*/
-  background-image: url("https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726461374/dark-purple-background-27zkha4jrgkrw17z_qnzd80.webp");
-  background-size: contain;
+  background-image: url("https://res.cloudinary.com/dmdnmg8zs/image/upload/v1726769409/gradient-connection-background_23-2150460426_eembnj.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   /* background-color: rgb(50, 6, 50) ; */
   height: 100vh;
@@ -356,7 +396,7 @@ footer {
   margin-left: 2%; */
 
   padding-left: 1%;
-  margin-top: 15%;
+  margin-top: 10%;
   text-align: center;
   font-family: 'Anonymous Pro', monospace;
   display: flex;
@@ -366,42 +406,59 @@ footer {
   width: 100%;
 
   h3 {
-    font-size: 2rem;
-    color: ghostwhite;
+    font-size: 1.5rem;
+    color: rgb(240, 175, 77);
   }
+
   .hhh {
     font-family: 'Liberty';
-        font-weight: 100;
-        font-size: 3rem;
-        letter-spacing: .2em;
-        flex-flow: row;
-    }
-    .letter{
-            color: #fffad9;
-            text-shadow: 0 0 2rem #00f0ff;
-            display: flex;
-            flex-direction: column;
-        }
-        
-    .letter-8 {
-                transform: translate(5.2rem, 3rem) rotate(100deg);
-                animation: flicker 2s ease-in-out infinite alternate;
-            } 
-            .h1 {
-              display: flex;
-              gap: 1.5rem;
-            }
+    font-weight: 100;
+    font-size: 2rem;
+    letter-spacing: .2em;
+    flex-flow: row;
+  }
+
+  .letter {
+    color: #ffffa1;
+    /* Bright neon yellow */
+    text-shadow:
+      0 0 5rem #00ffff,
+      /* Stronger first glow layer */
+      0 0 10rem #00ffff,
+      /* Larger second glow */
+      0 0 15rem #00ffff,
+      /* More intense third glow */
+      0 0 20rem #00ffff;
+    /* Final layer for maximum glow effect */
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .letter-8 {
+    transform: translate(5.2rem, 3rem) rotate(100deg);
+    animation: flicker 2s ease-in-out infinite alternate;
+  }
+
+  .h1 {
+    display: flex;
+    gap: 1.5rem;
+  }
+
   h1 html {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
   }
+
   h1 {
     @font-face {
       font-family: "Liberty";
       src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/907368/liberty.otf');
-    };
+    }
+
+    ;
 
     width: 100%;
     background-color: transparent;
@@ -412,8 +469,8 @@ footer {
     justify-content: center;
     align-items: center;
 
-   
-         
+
+
     /* font-size: 2.7rem; */
     /* border-right: 2px solid hsl(0, 99%, 60%); */
     /* animation: typewriter 7s steps(50) infinite alternate-reverse, blinkTextCursor 500ms infinite; */
@@ -421,40 +478,58 @@ footer {
     overflow: hidden;
     margin-left: 2%;
     color: orange; */
-    
+
   }
 
 }
+
 @keyframes flicker {
-    0%{
-        opacity: 1;
-        transform: translate(-0.2rem, 1rem) rotate(10deg)
-    }5%{
-        opacity: 1;
-        transform: translate(-0.2rem, 1rem) rotate(10deg)
-    }5.5%{
-        opacity: 0;
-        transform: translate(-0.2rem, 1rem) rotate(10deg)
-    }6%{
-        opacity: 1;
-        transform: translate(-0.2rem, 1rem) rotate(10deg)
-    }6.5%{
-        opacity: 1;
-        transform: translate(-0.2rem, 1rem) rotate(10deg)
-    }7%{
-        opacity: 0;
-        transform: translate(-0.2rem, 1rem) rotate(10deg)
-  }8%{
-        opacity: 1;
-        transform: translate(-0.2rem, 1rem) rotate(10deg)
-}50%{
-        opacity: 1;
-        transform: translate(-0.2rem, 1rem) rotate(13deg)
-}100%{
-        opacity: 1;
-        transform: translate(-0.2rem, 1rem) rotate(10deg)
+  0% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg)
+  }
+
+  5% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg)
+  }
+
+  5.5% {
+    opacity: 0;
+    transform: translate(-0.2rem, 1rem) rotate(10deg)
+  }
+
+  6% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg)
+  }
+
+  6.5% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg)
+  }
+
+  7% {
+    opacity: 0;
+    transform: translate(-0.2rem, 1rem) rotate(10deg)
+  }
+
+  8% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg)
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(13deg)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-0.2rem, 1rem) rotate(10deg)
+  }
 }
-}
+
 /* @keyframes typewriter {
   from {
     width: 0;
@@ -549,7 +624,7 @@ footer {
 }
 
 .bg-custom {
-  background-color: rgb(50, 6, 50);
+  background-color: rgb(1, 1, 72);
   border-bottom: 2px solid black;
 }
 
@@ -569,5 +644,34 @@ hr {
 
 }
 
-</style>
+.me {
+  width: 50%;
+  max-width: 25rem;
+  border: 1px solid black;
+  background-color: rgb(11, 48, 63);
+  margin-left: 5%;
+  border-radius: 25%;
+  max-height: 35rem;
 
+}
+
+.heroo {
+  width: 50%;
+
+  p {
+    padding-top: 5%;
+    
+  }
+}
+
+.hero {
+  display: flex;
+}
+
+#about {
+  p {
+    margin-top: 5%;
+    font-size: 1.3rem;
+  }
+}
+</style>
